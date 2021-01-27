@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from random import choice
 
 
@@ -5,21 +6,23 @@ from random import choice
 # NOTE: Class names need to be single characters.
 CLASSES = {
   "A": "aeiou",
-  "K": "kst"
+  "T": "tnlb",
+  "K": "ksn"
 }
 
 # Define patterns for given names, using the classes defined above
 GIVEN_NAME_PATTERNS = [
-  "KAAK",
-  "KAKAK",
-  "KAAKAK",
-  "KAKAAK",
+  "TAAK",
+  "TAKAK",
+  "TAAKAK",
+  "TAKAAK",
 ]
 
 # Define patterns for surnames, using the classes defined above
 SURNAME_PATTERNS = [
-  "KAAK",
-  "KAAKKA",
+  "TAAK",
+  "TAAKKA",
+  "TAKATAK",
 ]
 
 
