@@ -28,7 +28,7 @@ GIVEN_NAME_PATTERNS = [
 
 # Define patterns for surnames, using the classes defined above
 SURNAME_PATTERNS = [
-    # Soon, Kapik, Took
+    # Soon
     "KA:N",
     # Sunt
     "KANT",
